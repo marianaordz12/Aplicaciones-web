@@ -1,0 +1,139 @@
+:root {
+  --fondo: #E5EAF5;
+  --blanco: #FFFFFF;
+  --rosa: #FF6F82;
+  --azul-claro: #8FA3ED;
+  --azul: #557FFC;
+  --azul-oscuro: #1E1E50;
+}
+
+body {
+  background-color: var(--fondo);
+  color: var(--azul-oscuro);
+  font-family: 'Onest', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--azul);
+}
+
+h2 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.navbar-petask {
+  background-color: var(--azul-oscuro);
+  min-height: 64px;
+}
+
+@media (min-width: 992px) {
+  .navbar-petask {
+    min-height: 106px;
+  }
+}
+
+.navbar-petask .navbar-brand {
+  font-family: 'Questrial', sans-serif;
+  font-size: 22px;
+  color: var(--blanco);
+}
+
+.navbar-petask .nav-link {
+  color: var(--blanco);
+  font-size: 16px;
+  min-width: 45px;
+  min-height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-petask .nav-link:hover {
+  color: var(--azul-claro);
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.card-petask {
+  background-color: var(--blanco);
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(30, 30, 80, 0.2);
+}
+
+.card-petask .card-body {
+  padding: 24px;
+}
+
+.form-control {
+  background-color: var(--blanco);
+  color: var(--azul-oscuro);
+  min-height: 56px;
+  font-size: 16px;
+  border: 1px solid var(--azul-claro);
+  border-radius: 8px;
+}
+
+.form-control:focus {
+  border-color: var(--azul);
+  box-shadow: 0 0 0 0.2rem rgba(85, 127, 252, 0.25);
+}
+
+.form-label {
+  font-size: 16px;
+}
+
+.btn-petask {
+  background-color: var(--rosa);
+  color: var(--azul-oscuro);
+  font-size: 14px;
+  font-weight: 500;
+  min-width: 45px;
+  min-height: 45px;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-petask:hover {
+  background-color: var(--azul-claro);
+  color: var(--azul-oscuro);
+}
+
+.btn-secundario {
+  background-color: var(--azul-claro);
+  color: var(--azul-oscuro);
+  font-size: 14px;
+  font-weight: 500;
+  min-width: 45px;
+  min-height: 45px;
+  border: none;
+  border-radius: 8px;
+}
+
+.alert-petask {
+  background-color: var(--blanco);
+  color: var(--azul-oscuro);
+  border: 2px solid var(--azul);
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.modal-content {
+  background-color: var(--blanco);
+  border-radius: 16px;
+}
+
+.modal-title {
+  font-family: 'Questrial', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
